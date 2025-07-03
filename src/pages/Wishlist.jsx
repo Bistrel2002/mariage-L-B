@@ -51,7 +51,7 @@ const Wishlist = () => (
       Votre présence à nos côtés est le plus beau des cadeaux. Toutefois, pour ceux qui souhaitent marquer ce moment d'une attention particulière, nous avons rassemblé quelques idées juste ici.   
     </WishlistText>
     <Cagnotte>
-      Participez à notre cagnotte : <GiftLink href="https://www.ungrandjour.com/fr/mariage-larenne-brandon" target="_blank" rel="noopener noreferrer">Faire un don</GiftLink>
+     <GiftLink href="https://www.ungrandjour.com/fr/mariage-larenne-brandon" target="_blank" rel="noopener noreferrer">Laisse ton empreinte</GiftLink>
     </Cagnotte>
   </WishlistSection>
 );

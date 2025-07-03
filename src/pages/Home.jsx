@@ -645,9 +645,10 @@ export default function Home() {
   const elleImages = ['/Elle1.jpg', '/Elle2.jpg', '/Elle3.jpg'];
   const luiImages = ['/Lui1.jpg', '/Lui2.jpg', '/Lui3.jpg'];
 
-  // Ajout du hook pour la galerie
-  const [galleryRef, galleryVisible] = useIntersectionObserver({ threshold: 0.02 });
-  // Ajout du hook pour la section histoire
+  // Hooks séparés pour chaque section
+  const [nousGalleryRef, nousGalleryVisible] = useIntersectionObserver({ threshold: 0.02 });
+  const [elleGalleryRef, elleGalleryVisible] = useIntersectionObserver({ threshold: 0.02 });
+  const [luiGalleryRef, luiGalleryVisible] = useIntersectionObserver({ threshold: 0.02 });
   const [storyRef, storyVisible] = useIntersectionObserver({ threshold: 0.01 });
 
   // Empêcher le scroll horizontal et forcer la largeur sur Home uniquement
@@ -676,17 +677,6 @@ export default function Home() {
           Merci de faire partie de cette belle aventure ! ✨
         </IntroBox>
       </Hero>
-
-      {/* Galerie Photos avec animation scroll */}
-      <AnimatedSection ref={galleryRef} visible={galleryVisible}>
-        <CarouselSection>
-          <CarouselContainer>
-            <PhotoCarousel images={nousImages} title="💕 Nous" />
-            <PhotoCarousel images={elleImages} title="🌸 Elle" />
-            <PhotoCarousel images={luiImages} title="🤵 Lui" />
-          </CarouselContainer>
-        </CarouselSection>
-      </AnimatedSection>
 
       {/* Section vidéo avant Notre Histoire */}
       <VideoSection>
@@ -730,6 +720,15 @@ export default function Home() {
               Depuis ce jour… ils ne se sont plus quittés.
             </StoryText>
 
+            {/* Galerie "Nous" juste après Notre Histoire */}
+            <AnimatedSection ref={nousGalleryRef} visible={nousGalleryVisible}>
+              <CarouselSection>
+                <CarouselContainer>
+                  <PhotoCarousel images={nousImages} />
+                </CarouselContainer>
+              </CarouselSection>
+            </AnimatedSection>
+
             <TestimonialContainer>
               <AnimatedTestimonialCard align="left" title="💕 Elle">
                 <TestimonialText>
@@ -739,6 +738,15 @@ export default function Home() {
                 Il m'a conquise sans pression, juste en étant lui.
                 Aujourd'hui, il est mon roc, mon fou rire du jour, mon chez-moi.
                 </TestimonialText>
+                
+                {/* Galerie "Elle" sous son texte */}
+                <AnimatedSection ref={elleGalleryRef} visible={elleGalleryVisible}>
+                  <CarouselSection style={{ background: 'transparent', padding: '2rem 0' }}>
+                    <CarouselContainer>
+                      <PhotoCarousel images={elleImages} />
+                    </CarouselContainer>
+                  </CarouselSection>
+                </AnimatedSection>
               </AnimatedTestimonialCard>
 
               <AnimatedTestimonialCard align="right" title="💙 Lui">
@@ -757,6 +765,15 @@ export default function Home() {
 
                 C'est l'appui qui me manquait pour me rapprocher des voûtes célestes et tutoyer les étoiles.
                 </TestimonialText>
+                
+                {/* Galerie "Lui" sous son texte */}
+                <AnimatedSection ref={luiGalleryRef} visible={luiGalleryVisible}>
+                  <CarouselSection style={{ background: 'transparent', padding: '2rem 0' }}>
+                    <CarouselContainer>
+                      <PhotoCarousel images={luiImages} />
+                    </CarouselContainer>
+                  </CarouselSection>
+                </AnimatedSection>
               </AnimatedTestimonialCard>
             </TestimonialContainer>
           </StoryContainer>
