@@ -23,7 +23,7 @@ const Accent = styled.span`
 const Footer = () => (
   <FooterContainer>
     <div>
-    Mariage coutumier et civil de <Accent>ABOH Brandon & MANGWA Larenne</Accent>
+    Mariage coutumier et civil de <Accent>Larenne MANGWA & Brandon ABOH</Accent>
     </div>
     <div style={{fontSize: '0.9em', marginTop: '0.3em'}}>© {new Date().getFullYear()} - {new Date().getFullYear() + 1} Tous droits réservés</div>
   </FooterContainer>
