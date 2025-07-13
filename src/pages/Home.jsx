@@ -669,7 +669,7 @@ export default function Home() {
       <Hero>
         <Names>Larenne MANGWA & Brandon ABOH</Names>
         <Details>11 Avril 2026 — 13h00</Details>
-        <Details>Hôtel de ville de Yaoundé</Details>
+        <Details>Hôtel Franco Yaoundé</Details>
         <IntroBox>
           Nous avons la grande joie de vous inviter à notre <strong>mariage coutumier et civil</strong>.
           Cette célébration sera l'occasion de partager un moment unique, riche en traditions et en émotions, entourés de nos familles et amis.
