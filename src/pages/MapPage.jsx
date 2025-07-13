@@ -60,7 +60,7 @@ const MapPage = () => (
       referrerPolicy="no-referrer-when-downgrade"
       title="Carte Palais des congrès Yaoundé"
     ></MapFrame>
-    <Button href="https://goo.gl/maps/2e2e2e2e2e2e2e2e9" target="_blank" rel="noopener noreferrer">
+    <Button href="https://www.google.com/maps/place/Hôtel+Franco,+Yaoundé,+Rue+Onembele+Nkou,+Yaoundé,+Cameroun/data=!4m2!3m1!1s0x108bcf63f89a3ed3:0x439a5a10a99b67b2?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI1LjI3LjQYACCenQoqmQEsOTQyODA0ODYsOTQyNzUzMTcsOTQyMjMyOTksOTQyMTY0MTMsOTQyODA1NzYsOTQyMTI0OTYsOTQyNzQ4ODMsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTc1MjMsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsNDcwODQzOTMsOTQyMTMyMDAsOTQyNTgzMjVCAkZS&skid=c108360e-e8a1-44ca-a4e9-2dc6ccea8156&g_st=aw" target="_blank" rel="noopener noreferrer">
       Ouvrir dans Google Maps
     </Button>
   </Section>

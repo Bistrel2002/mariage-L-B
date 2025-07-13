@@ -193,33 +193,33 @@ function getICSContent({ title, location, details, start, end }) {
 
 const agendaData = [
   {
-    time: '12h00 - 14h00',
+    time: '13h00 - 15h00',
     title: 'Cérémonie civile',
-    location: 'Hôtel De Ville De Yaoundé, Cameroun',
+    location: 'Hôtel Franco, Rue Onembele Nkou, Yaoundé, Cameroun',
     details: 'Cérémonie civile. Hôtel De Ville De Yaoundé, Cameroun. Mariage Brandon & Larenne.'
   },
   {
-    time: '14h00 - 15h00',
+    time: '15h00 - 16h00',
     title: 'Séance photos',
-    location: "Esplanade de l'hôtel De Ville De Yaoundé, Cameroun",
+    location: "Hôtel Franco, Rue Onembele Nkou, Yaoundé, Cameroun",
     details: "Séance photos. Esplanade de l'hôtel De Ville De Yaoundé, Cameroun. Mariage Brandon & Larenne."
   },
   {
-    time: '15h00 - 17h00',
+    time: '16h00 - 18h00',
     title: 'Apéro et toast',
-    location: "Salle des fêtes Bouton d'or - Vital Plus, Av. Mgr Vogt, Yaoundé, Cameroun",
+    location: "Hôtel Franco, Rue Onembele Nkou, Yaoundé, Cameroun",
     details: "Apéro et toast. Salle des fêtes Bouton d'or - Vital Plus, Av. Mgr Vogt, Yaoundé, Cameroun. Mariage Brandon & Larenne."
   },
   {
     time: '18h00 - 20h00',
     title: 'Dîner',
-    location: "Salle des fêtes Bouton d'or - Vital Plus, Av. Mgr Vogt, Yaoundé, Cameroun",
+    location: "Hôtel Franco, Rue Onembele Nkou, Yaoundé, Cameroun",
     details: "Dîner. Salle des fêtes Bouton d'or - Vital Plus, Av. Mgr Vogt, Yaoundé, Cameroun. Mariage Brandon & Larenne."
   },
   {
-    time: '20h00 - 04h00',
+    time: '20h00 - 03h00',  
     title: 'Ouverture de bal et piste de danse',
-    location: "Salle des fêtes Bouton d'or - Vital Plus, Av. Mgr Vogt, Yaoundé, Cameroun",
+    location: "Hôtel Franco, Rue Onembele Nkou, Yaoundé, Cameroun",
     details: "Ouverture de bal et piste de danse. Salle des fêtes Bouton d'or - Vital Plus, Av. Mgr Vogt, Yaoundé, Cameroun. Mariage Brandon & Larenne."
   },
 ];

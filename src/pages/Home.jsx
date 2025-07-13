@@ -668,7 +668,7 @@ export default function Home() {
       {/* Hero Section */}
       <Hero>
         <Names>Larenne MANGWA & Brandon ABOH</Names>
-        <Details>11 Avril 2026 — 12h00</Details>
+        <Details>11 Avril 2026 — 13h00</Details>
         <Details>Hôtel de ville de Yaoundé</Details>
         <IntroBox>
           Nous avons la grande joie de vous inviter à notre <strong>mariage coutumier et civil</strong>.
