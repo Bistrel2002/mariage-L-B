@@ -170,19 +170,6 @@ const Arrow = styled.button`
 
 const hotels = [
   {
-    name: 'Hotel Franco Yaounde',
-    images: [
-      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/389476040.jpg?k=4ec7354f6d4003e8a99671cde1527a08013adf0cec5ad1d8383760ffa15b7a3f&o=',
-      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/388743901.jpg?k=94500cde4cc56dd3c1fc9ff55a06f3261fffb7b9d6c41459ddfe26ce1c9f618c&o=',
-      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/389421914.jpg?k=e6518c1526b8e6ad717cabd7366e9d9316bac860f79e2aded2bf2e5b7bd0460f&o=',
-      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/352161235.jpg?k=e810dbfd787a8f902370fb190444acafb54a0150e3bf61f99494d5ae6243e9f8&o=',
-      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/387209791.jpg?k=79abc3a2908bfbb76cde6a151f04884908730a8978dd6c839db6058c1e323ad3&o='
-    ],
-    price: '~ € 117 / Tarif du jour',
-    distance: 'Rue Onembele Nkou, Nlongkak, 14304 Yaoundé',
-    link: 'https://www.booking.com/hotel/cm/franco-yaounde.html?ssne=Yaoundé&ssne_untouched=Yaoundé&highlighted_hotels=1057178&ss=Yaoundé&dest_id=-3160026&dest_type=city&hp_avform=1&origin=hp&do_availability_check=1&label=franco-yaounde-Rcoem0PCTTHxMv67jBIikQSM434496238530%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-29631976681%3Alp9197363%3Ali%3Adem%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YWiN3YY6Tdistu3PpCLSviE&sid=b5d440ccdde1f4773b10ebe5461fe43c&aid=311089&lang=fr&sb=1&src_elem=sb&src=hotel&checkin=2025-08-15&checkout=2025-08-16&group_adults=1&no_rooms=1&group_children=0#availability_target',
-  },
-  {
     name: 'LA ROCHELLE HOTEL',
     images: [
       'https://cf.bstatic.com/xdata/images/hotel/max1024x768/334768062.jpg?k=48ed4fbdc5ad513df36cdcdef4bd3b37d5490643019b23a265f1db94f229b2ee&o=',
@@ -255,7 +242,21 @@ const hotels = [
     distance: "Avenue De L'Indépendance, Yaoundé",
     link: 'https://www.booking.com/hotel/cm/best-lifestyle-home-hippodrome.fr.html?aid=318615&label=New_French_FR_FR_21427169785-Jt2Do6A%2A80cSmr5wOnHnTgSM217289923597%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg-Share-lsXuL6D%401751354085&sid=d3bb86a99d7b38417a407813d9dff63b&all_sr_blocks=1354093001_414397094_6_0_0&checkin=2025-07-02&checkout=2025-07-03&dest_id=-3160026&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1354093001_414397094_6_0_0&hpos=1&matching_block_id=1354093001_414397094_6_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1354093001_414397094_6_0_0__10000000&srepoch=1751489714&srpvid=127e93165f3b0675&type=total&ucfs=1&',
   },  
-
+  {
+    name: 'Hotel Franco Yaounde',
+    images: [
+      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/389476040.jpg?k=4ec7354f6d4003e8a99671cde1527a08013adf0cec5ad1d8383760ffa15b7a3f&o=',
+      '/1000235346.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/388743901.jpg?k=94500cde4cc56dd3c1fc9ff55a06f3261fffb7b9d6c41459ddfe26ce1c9f618c&o=',
+       '/1000235325.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/352161235.jpg?k=e810dbfd787a8f902370fb190444acafb54a0150e3bf61f99494d5ae6243e9f8&o=',
+      '/1000235345.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/387209791.jpg?k=79abc3a2908bfbb76cde6a151f04884908730a8978dd6c839db6058c1e323ad3&o='
+    ],
+    price: '~ € 117 / Tarif du jour',
+    distance: 'Rue Onembele Nkou, Nlongkak, 14304 Yaoundé',
+    link: 'https://www.booking.com/hotel/cm/franco-yaounde.html?ssne=Yaoundé&ssne_untouched=Yaoundé&highlighted_hotels=1057178&ss=Yaoundé&dest_id=-3160026&dest_type=city&hp_avform=1&origin=hp&do_availability_check=1&label=franco-yaounde-Rcoem0PCTTHxMv67jBIikQSM434496238530%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-29631976681%3Alp9197363%3Ali%3Adem%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YWiN3YY6Tdistu3PpCLSviE&sid=b5d440ccdde1f4773b10ebe5461fe43c&aid=311089&lang=fr&sb=1&src_elem=sb&src=hotel&checkin=2025-08-15&checkout=2025-08-16&group_adults=1&no_rooms=1&group_children=0#availability_target',
+  },
   {
     name: 'Les Résidences de la Providence',
     images: [
