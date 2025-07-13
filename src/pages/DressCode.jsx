@@ -257,7 +257,7 @@ const DressCode = () => (
   <Section>
     <Title>Élégance à l'africaine </Title>
     <IntroDress>
-      Les familles <b style={{color: '#D08161'}}>KESSENG A ABOH</b> et <b style={{color: '#C68B59'}}>MANGWA</b> seraient heureuses de célébrer avec vous la belle rencontre de leurs héritages culturels.<br /><br />
+      Les familles <b style={{color: '#D08161'}}>KESSENG A ABOH</b> et <b style={{color: '#C68B59'}}>MANGWA</b> seront heureuses de célébrer avec vous la belle rencontre de leurs héritages culturels.<br /><br />
       En ce jour où les traditions <span style={{color: '#D08161', fontWeight: 600}}><i>Bafia(Diabô par Kikii)</i></span> et <span style={{color: '#C68B59', fontWeight: 600}}><i>Bassa'a(Ibong par Ndom)</i></span> s'uniront à travers l'amour de leur fils et de leur fille,<br /><br />
       Nous vous invitons à revêtir vos plus belles tenues et/ou accessoires traditionnels,<br />
       en vous inspirant de la palette de couleurs ci-dessous :
